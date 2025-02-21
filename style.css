@@ -3,14 +3,21 @@
     background-color: aquamarine;
     border-radius: 20px;
     gap: 20px;
+    display: block;
 }
-
+.contenedor-dos{
+    background-color: rgb(203, 255, 248);
+    border-radius: 20px;   
+   padding: 20px;
+ 
+}
 .contenedor-trabajos{
    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 40px;
     place-items: center;
+    padding: 20px;
     
 }
 
@@ -22,7 +29,7 @@
     color: white;                 
     border-radius: 50px;     
     background-color: bisque;  
-    padding: 20px;      
+    padding: 20px;    
 }
 
 
